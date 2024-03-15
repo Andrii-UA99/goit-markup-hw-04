@@ -335,6 +335,14 @@ display: inline-block;
     margin: 0;
 }
 
+.our-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
 .icon-bckg {
     width: 40px;
     height: 40px;
@@ -349,14 +357,6 @@ display: inline-block;
 .icon-bckg:hover,
 .icon-bckg:focus {
     background-color: #404bbf;
-}
-
-.our-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
 }
 
 .icon-social {
